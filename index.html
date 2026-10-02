@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profit AI</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<main class="wrap">
+<header><div class="brand">🤖 Profit AI</div><div id="user" class="muted">Connecting…</div></header>
+<section class="hero"><div class="muted">POINTS BALANCE</div><div id="balance">0</div></section>
+<div class="grid">
+<button id="daily">🎁 Daily Bonus<small>+100</small></button>
+<button id="invite">👥 Invite Friends<small>+500</small></button>
+<button id="board">🏆 Leaderboard<small>Top 20</small></button>
+</div>
+<section class="card"><h3>👥 Referrals</h3><p>You invited <b id="refs">0</b> friends.</p></section>
+<section id="leaders" class="card hidden"><h3>🏆 Leaderboard</h3><div id="rows"></div></section>
+</main><script src="app.js"></script></body></html>
